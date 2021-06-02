@@ -1,6 +1,6 @@
-# eslint-config-pancake
+# eslint-config-crosswise
 
-Pancake Eslint config with:
+Crosswise Eslint config with:
 
 - Airbnb config
 - Typescript
@@ -9,7 +9,7 @@ Pancake Eslint config with:
 ## Usage
 
 ```
-npx install-peerdeps --dev @pancakeswap-libs/eslint-config-pancake
+npx install-peerdeps --dev @crosswise-libs/eslint-config-crosswise
 ```
 
-Add `"extends": "@pancakeswap-libs/eslint-config-pancake"` to your eslint config file.
+Add `"extends": "@crosswise-libs/eslint-config-crosswise"` to your eslint config file.
