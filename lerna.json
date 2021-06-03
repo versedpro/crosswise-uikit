@@ -5,6 +5,11 @@
   "workspaces": true,
   "ignoreChanges": ["**/__tests__/**", "**/*.md", "**/.storybook/**"],
   "command": {
+    "publich": {
+      "ignoreChainges": ["ignored-file", "*.md"],
+      "message": "chore(release): Publish",
+      "registry": "https://npm.pkg.github.com"
+    },
     "version": {
       "conventionalCommits": true,
       "message": "chore(release): Publish"
