@@ -1,0 +1,8 @@
+61 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+62 error Error: Command failed with exit code 128: git tag @crosswise-libs/uikit@0.29.4 -m @crosswise-libs/uikit@0.29.4
+62 error fatal: tag '@crosswise-libs/uikit@0.29.4' already exists
+62 error     at makeError (/home/proman/Desktop/crosswise-toolkit/node_modules/execa/lib/error.js:59:11)
+62 error     at handlePromise (/home/proman/Desktop/crosswise-toolkit/node_modules/execa/index.js:114:26)
+62 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+62 error     at async Promise.all (index 0)
+62 error     at async Promise.all (index 0)
