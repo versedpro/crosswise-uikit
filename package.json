@@ -6,10 +6,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/crosswise-finance/crosswise-toolkit.git"
-  },
+  "repository": "git+https://github.com/crosswise-finance/crosswise-toolkit.git",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/crosswise-finance/crosswise-toolkit/issues"
@@ -61,5 +58,7 @@
     "ts-jest": "^26.5.1",
     "tslib": "^2.0.3",
     "typescript": "^4.1.5"
-  }
+  },
+  "main": "index.js",
+  "author": "gitproman0211 <wproman0211@outlook.com>"
 }
