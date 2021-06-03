@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.1.6...@crosswise-libs/uikit@0.1.7) (2021-06-03)
+
+**Note:** Version bump only for package @crosswise-libs/uikit
+
+
+
+
+
 ## [0.1.6](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.1.5...@crosswise-libs/uikit@0.1.6) (2021-06-03)
 
 **Note:** Version bump only for package @crosswise-libs/uikit
