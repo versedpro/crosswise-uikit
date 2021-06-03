@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.29.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@crosswise-libs/uikit@0.29.6...@crosswise-libs/uikit@0.29.4) (2021-06-03)
+
+**Note:** Version bump only for package @crosswise-libs/uikit
+
+
+
+
+
 ## [0.29.6](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.29.4...@crosswise-libs/uikit@0.29.6) (2021-06-03)
 
 **Note:** Version bump only for package @crosswise-libs/uikit
