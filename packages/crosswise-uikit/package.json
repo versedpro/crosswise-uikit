@@ -1,6 +1,6 @@
 {
-  "name": "@crosswise-libs/uikit",
-  "version": "0.1.7",
+  "name": "crosswise-uikit",
+  "version": "0.29.6",
   "description": "Set of UI components for crosswise projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,11 +8,12 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit",
+  "repository": "https://github.com/goSoftWithVenus/crosswise-toolkit/tree/master/packages/crosswise-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
-    "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build": "rmdir /s /q dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build:ubuntu": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
@@ -52,5 +53,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "e5d5dd1dbfeaa1565c3b9f612c62b0668900bd4e"
+  "gitHead": "d051573b8e85da4a6fbb1ff1f8712b9c0b157b65"
 }

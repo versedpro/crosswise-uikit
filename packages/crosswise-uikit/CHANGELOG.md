@@ -3,65 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.1.7](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.1.6...@crosswise-libs/uikit@0.1.7) (2021-06-03)
+## [0.29.6](https://github.com/goSoftWithVenus/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.29.5...crosswise-uikit@0.29.6) (2021-06-04)
 
-**Note:** Version bump only for package @crosswise-libs/uikit
-
-
-
-
-
-## [0.1.6](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.1.5...@crosswise-libs/uikit@0.1.6) (2021-06-03)
-
-**Note:** Version bump only for package @crosswise-libs/uikit
+**Note:** Version bump only for package crosswise-uikit
 
 
 
 
 
-## [0.1.5](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.1.3...@crosswise-libs/uikit@0.1.5) (2021-06-03)
+## [0.29.5](https://github.com/goSoftWithVenus/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.29.4...crosswise-uikit@0.29.5) (2021-06-04)
 
-**Note:** Version bump only for package @crosswise-libs/uikit
-
-
-
-
-
-## [0.1.3](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.1.1...@crosswise-libs/uikit@0.1.3) (2021-06-03)
-
-**Note:** Version bump only for package @crosswise-libs/uikit
+**Note:** Version bump only for package crosswise-uikit
 
 
 
 
 
-## [0.1.1](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.29.6...@crosswise-libs/uikit@0.1.1) (2021-06-03)
+## 0.29.4 (2021-06-04)
 
-**Note:** Version bump only for package @crosswise-libs/uikit
+**Note:** Version bump only for package crosswise-uikit
 
-
-
-
-
-## [0.29.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@crosswise-libs/uikit@0.29.6...@crosswise-libs/uikit@0.29.4) (2021-06-03)
-
-**Note:** Version bump only for package @crosswise-libs/uikit
-
-
-
-
-
-## [0.29.6](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise-libs/uikit@0.29.4...@crosswise-libs/uikit@0.29.6) (2021-06-03)
-
-**Note:** Version bump only for package @crosswise-libs/uikit
-
-
-
-
-
-## 0.29.4 (2021-06-02)
-
-**Note:** Version bump only for package @crosswise-libs/uikit
 
 
 
