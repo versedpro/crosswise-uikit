@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.4 (2021-06-04)
+
+**Note:** Version bump only for package eslint-config-crosswise
+
+
+
+
+
 ## [1.0.3](https://github.com/goSoftWithVenus/crosswise-toolkit/tree/master/packages/eslint-config-crosswise/compare/eslint-config-crosswise@1.0.2...eslint-config-crosswise@1.0.3) (2021-06-04)
 
 **Note:** Version bump only for package eslint-config-crosswise

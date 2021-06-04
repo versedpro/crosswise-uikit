@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.29.7 (2021-06-04)
+
+**Note:** Version bump only for package crosswise-uikit
+
+
+
+
+
 ## [0.29.6](https://github.com/goSoftWithVenus/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.29.5...crosswise-uikit@0.29.6) (2021-06-04)
 
 **Note:** Version bump only for package crosswise-uikit
