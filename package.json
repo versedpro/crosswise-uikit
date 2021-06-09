@@ -8,13 +8,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goSoftWithVenus/crosswise-toolkit.git"
+    "url": "git+https://github.com/crosswise-finance/crosswise-toolkit.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goSoftWithVenus/crosswise-toolkit/issues"
+    "url": "https://github.com/crosswise-finance/crosswise-toolkit/issues"
   },
-  "homepage": "https://github.com/goSoftWithVenus/crosswise-toolkit#readme",
+  "homepage": "https://github.com/crosswise-finance/crosswise-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
@@ -59,9 +59,9 @@
     "themeprovider-storybook": "^1.7.1",
     "ts-jest": "^26.5.1",
     "tslib": "^2.0.3",
-    "typescript": "^4.1.5"
+    "typescript": "^4.1.5",
+    "eslint-config-crosswise": "^1.0.6"
   },
   "dependencies": {
-    "eslint-config-crosswise": "^1.0.6"
   }
 }

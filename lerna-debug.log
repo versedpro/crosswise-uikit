@@ -1,8 +1,22 @@
-61 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
-62 error Error: Command failed with exit code 128: git tag @crosswise-libs/uikit@0.29.4 -m @crosswise-libs/uikit@0.29.4
-62 error fatal: tag '@crosswise-libs/uikit@0.29.4' already exists
-62 error     at makeError (/home/proman/Desktop/crosswise-toolkit/node_modules/execa/lib/error.js:59:11)
-62 error     at handlePromise (/home/proman/Desktop/crosswise-toolkit/node_modules/execa/index.js:114:26)
-62 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-62 error     at async Promise.all (index 0)
-62 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'format:check'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath D:\tutorial\blockchain\CrossWise\crosswise-toolkit
+3 info versioning independent
+4 error JSONError: Unexpected token "'" (0x27) in JSON at position 744 while parsing near "...k --loglevel error \\'src/**/*.{js,jsx,ts..." in packages\crosswise-uikit\package.json
+4 error
+4 error [0m [90m 16 |[39m     [32m"build:ubuntu"[39m[33m:[39m [32m"rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist"[39m[33m,[39m[0m
+4 error [0m [90m 17 |[39m     [32m"lint"[39m[33m:[39m [32m"eslint 'src/**/*.{js,jsx,ts,tsx}'"[39m[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 18 |[39m     [32m"format:check"[39m[33m:[39m [32m"prettier --check --loglevel error \'src/**/*.{js,jsx,ts,tsx}\'"[39m[33m,[39m[0m
+4 error [0m [90m    |[39m                                                         [31m[1m^[22m[39m[0m
+4 error [0m [90m 19 |[39m     [32m"format:write"[39m[33m:[39m [32m"prettier --write 'src/**/*.{js,jsx,ts,tsx}'"[39m[33m,[39m[0m
+4 error [0m [90m 20 |[39m     [32m"storybook"[39m[33m:[39m [32m"start-storybook -p 6006"[39m[33m,[39m[0m
+4 error [0m [90m 21 |[39m     [32m"storybook:build"[39m[33m:[39m [32m"build-storybook"[39m[33m,[39m[0m
+4 error
+4 error     at parseJson (D:\tutorial\blockchain\CrossWise\crosswise-toolkit\node_modules\parse-json\index.js:29:21)
+4 error     at parse (D:\tutorial\blockchain\CrossWise\crosswise-toolkit\node_modules\load-json-file\index.js:15:9)
+4 error     at module.exports (D:\tutorial\blockchain\CrossWise\crosswise-toolkit\node_modules\load-json-file\index.js:18:47)
