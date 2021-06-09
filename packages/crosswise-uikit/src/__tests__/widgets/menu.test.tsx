@@ -136,11 +136,11 @@ it("renders correctly", () => {
       margin-right: 24px;
     }
 
-    .c3:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+    .c3:hover:not(:disabled):not(.crosswise-button--disabled):not(.crosswise-button--disabled):not(:active) {
       opacity: 0.65;
     }
 
-    .c3:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c3:active:not(:disabled):not(.crosswise-button--disabled):not(.crosswise-button--disabled) {
       opacity: 0.85;
       -webkit-transform: translateY(1px);
       -ms-transform: translateY(1px);
@@ -149,7 +149,7 @@ it("renders correctly", () => {
     }
 
     .c3:disabled,
-    .c3.pancake-button--disabled {
+    .c3.crosswise-button--disabled {
       background-color: #E9EAEB;
       border-color: #E9EAEB;
       box-shadow: none;
@@ -193,11 +193,11 @@ it("renders correctly", () => {
       color: #1FC7D4;
     }
 
-    .c8:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+    .c8:hover:not(:disabled):not(.crosswise-button--disabled):not(.crosswise-button--disabled):not(:active) {
       opacity: 0.65;
     }
 
-    .c8:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c8:active:not(:disabled):not(.crosswise-button--disabled):not(.crosswise-button--disabled) {
       opacity: 0.85;
       -webkit-transform: translateY(1px);
       -ms-transform: translateY(1px);
@@ -206,7 +206,7 @@ it("renders correctly", () => {
     }
 
     .c8:disabled,
-    .c8.pancake-button--disabled {
+    .c8.crosswise-button--disabled {
       background-color: #E9EAEB;
       border-color: #E9EAEB;
       box-shadow: none;
@@ -250,11 +250,11 @@ it("renders correctly", () => {
       box-shadow: none;
     }
 
-    .c24:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+    .c24:hover:not(:disabled):not(.crosswise-button--disabled):not(.crosswise-button--disabled):not(:active) {
       opacity: 0.65;
     }
 
-    .c24:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c24:active:not(:disabled):not(.crosswise-button--disabled):not(.crosswise-button--disabled) {
       opacity: 0.85;
       -webkit-transform: translateY(1px);
       -ms-transform: translateY(1px);
@@ -263,7 +263,7 @@ it("renders correctly", () => {
     }
 
     .c24:disabled,
-    .c24.pancake-button--disabled {
+    .c24.crosswise-button--disabled {
       background-color: #E9EAEB;
       border-color: #E9EAEB;
       box-shadow: none;
@@ -675,7 +675,7 @@ it("renders correctly", () => {
               </svg>
             </button>
             <a
-              aria-label="Pancake home page"
+              aria-label="Crosswise home page"
               class="c6"
               href="/"
             >
