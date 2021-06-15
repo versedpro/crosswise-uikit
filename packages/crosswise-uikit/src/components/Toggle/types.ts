@@ -2,6 +2,7 @@ import { InputHTMLAttributes } from "react";
 
 export type ToggleTheme = {
   handleBackground: string;
+  handleBackgroundImage: string;
 };
 
 export const scales = {
