@@ -11,6 +11,8 @@ export const scales = {
 export const variants = {
   PRIMARY: "primary",
   SECONDARY: "secondary",
+  PRIMARYGRADIENT: "primaryGradient",
+  SECONDARYGRADIENT: "secondaryGradient",
   TERTIARY: "tertiary",
   TEXT: "text",
   DANGER: "danger",
