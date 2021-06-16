@@ -12,8 +12,8 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
-    "build": "if exist dist rmdir /s /q dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
-    "build:ubuntu": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build:win": "if exist dist rmdir /s /q dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "format:check": "prettier --check --loglevel debug \"src/**/*.{js,jsx,ts,tsx}\"",
     "format:write": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",

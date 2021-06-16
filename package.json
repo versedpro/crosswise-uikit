@@ -22,7 +22,8 @@
     "format:check": "lerna run format:check",
     "storybook:build": "lerna run storybook:build",
     "storybook:run": "lerna run storybook",
-    "release": "yarn build && yarn lerna publish"
+    "release": "yarn build && yarn lerna publish",
+    "release:win": "yarn build:win && yarn lerna publish"
   },
   "husky": {
     "hooks": {
