@@ -21,6 +21,7 @@
     "test": "lerna run test",
     "lint": "lerna run lint",
     "format:check": "lerna run format:check",
+    "format:write": "lerna run format:write",
     "storybook:build": "lerna run storybook:build",
     "storybook:run": "lerna run storybook",
     "release": "yarn build && yarn lerna publish",
