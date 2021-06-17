@@ -39,7 +39,7 @@ export const styleVariants = {
   },
   [variants.SECONDARYGRADIENT]: {
     backgroundImage:
-      "linear-gradient(110deg, rgba(245, 247, 250, 0.12), var(--pale-grey-6) 52%, rgba(245, 247, 250, 0) 100%)",
+      "linear-gradient(101deg, rgba(245, 247, 250, 0.12), rgba(245, 247, 250, 0.06) 52%, rgba(245, 247, 250, 0) 100%)",
     color: "white",
     backdropFilter: "blur(40px)",
     border: "solid 1px rgba(245, 247, 250, 0.06)",

@@ -28,6 +28,8 @@ export type Shadows = {
 };
 
 export type Gradients = {
+  gradprimary: string;
+  gradsecondary: string;
   bubblegum: string;
   cardHeader: string;
   blue: string;
@@ -52,7 +54,6 @@ export type Colors = {
   background: string;
   backgroundDisabled: string;
   backgroundAlt: string;
-  backgroundImage: string;
   text: string;
   textDisabled: string;
   textSubtle: string;
