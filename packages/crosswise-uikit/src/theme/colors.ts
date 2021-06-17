@@ -2,7 +2,7 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#1FC7D4",
+  primary: "#00b8b9",
   primaryBright: "#53DEE9",
   primaryDark: "#0098A1",
   secondary: "#7645D9",
@@ -55,10 +55,10 @@ export const darkColors: Colors = {
   input: "#483f5a",
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
-  tertiary: "#353547",
+  tertiary: "rgba(0, 184, 185, 0.03)",
   text: "#EAE2FC",
   textDisabled: "#666171",
-  textSubtle: "#A28BD4",
+  textSubtle: "#e0e0ff",
   borderColor: "#524B63",
   gradients: {
     gradprimary: "linear-gradient(to right, #00ffaa , #4579f5 53%, #9c42f5)",
