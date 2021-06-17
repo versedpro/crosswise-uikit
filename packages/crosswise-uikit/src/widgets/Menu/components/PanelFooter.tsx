@@ -58,11 +58,10 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         <CakePrice crssPriceUsd={crssPriceUsd} />
-        <SocialLinks />
+        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
       </SocialEntry>
       <SettingsEntry>
-        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
+        <SocialLinks />
       </SettingsEntry>
     </Container>
   );

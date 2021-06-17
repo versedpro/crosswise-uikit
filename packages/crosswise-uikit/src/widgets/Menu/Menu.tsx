@@ -7,6 +7,7 @@ import { useMatchBreakpoints } from "../../hooks";
 import Logo from "./components/Logo";
 import Panel from "./components/Panel";
 import UserBlock from "./components/UserBlock";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
@@ -29,6 +30,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   width: 100%;
   height: ${MENU_HEIGHT}px;
   background-color: ${({ theme }) => theme.nav.background};
+  background-image: ${({ theme }) => theme.nav.gradient};
   border-bottom: solid 2px rgba(133, 133, 133, 0.1);
   z-index: 20;
   transform: translate3d(0, 0, 0);
@@ -37,6 +39,11 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
 const BodyWrapper = styled.div`
   position: relative;
   display: flex;
+`;
+
+const StyledVCenter = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
@@ -123,8 +130,13 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
-          <UserBlock account={account} login={login} logout={logout} />
-          {profile && <Avatar profile={profile} />}
+          <StyledVCenter>
+            <UserBlock account={account} login={login} logout={logout} />
+          </StyledVCenter>
+          <StyledVCenter>{profile && <Avatar profile={profile} />}</StyledVCenter>
+          <StyledVCenter>
+            <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+          </StyledVCenter>
         </Flex>
       </StyledNav>
       <BodyWrapper>
