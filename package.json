@@ -17,6 +17,7 @@
   "homepage": "https://github.com/crosswise-finance/crosswise-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
+    "build:win": "lerna run build:win",
     "test": "lerna run test",
     "lint": "lerna run lint",
     "format:check": "lerna run format:check",
