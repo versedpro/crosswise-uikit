@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.30.5...crosswise-uikit@0.31.0) (2021-06-21)
+
+
+### Features
+
+* update panel with gradient effect ([36ccc75](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/36ccc7504cc9590b775b25758f7bbdf8fabfb462))
+
+
+
+
+
+
 ## [0.30.5](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.30.3...crosswise-uikit@0.30.5) (2021-06-17)
 
 **Note:** Version bump only for package crosswise-uikit
