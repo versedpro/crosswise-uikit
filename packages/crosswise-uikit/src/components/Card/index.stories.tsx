@@ -6,6 +6,7 @@ import Heading from "../Heading/Heading";
 import CardRibbon from "./CardRibbon";
 import UIKitCardHeader from "./CardHeader";
 import CardBody from "./CardBody";
+import CardSeperator from "./CardSeperator";
 import CardFooter from "./CardFooter";
 import Card from "./Card";
 
@@ -25,30 +26,35 @@ export const Default: React.FC = () => {
       <Row>
         <Card>
           <CardBody>Body</CardBody>
+          <CardSeperator />
           <CardFooter>Footer</CardFooter>
         </Card>
       </Row>
       <Row>
         <Card isActive>
           <CardBody>Active</CardBody>
+          <CardSeperator />
           <CardFooter>Footer</CardFooter>
         </Card>
       </Row>
       <Row>
         <Card isSuccess>
           <CardBody>Success</CardBody>
+          <CardSeperator />
           <CardFooter>Footer</CardFooter>
         </Card>
       </Row>
       <Row>
         <Card isWarning>
           <CardBody>Warning</CardBody>
+          <CardSeperator />
           <CardFooter>Footer</CardFooter>
         </Card>
       </Row>
       <Row>
         <Card isDisabled>
           <CardBody>Disabled</CardBody>
+          <CardSeperator />
           <CardFooter>Footer</CardFooter>
         </Card>
       </Row>
@@ -64,6 +70,7 @@ export const CardHeader: React.FC = () => {
           <UIKitCardHeader>
             <Heading size="xl">Card Header</Heading>
           </UIKitCardHeader>
+          <CardSeperator />
           <CardBody>Body</CardBody>
           <CardFooter>Footer</CardFooter>
         </Card>
@@ -73,6 +80,7 @@ export const CardHeader: React.FC = () => {
           <UIKitCardHeader variant="blue">
             <Heading size="xl">Card Header</Heading>
           </UIKitCardHeader>
+          <CardSeperator />
           <CardBody>Body</CardBody>
           <CardFooter>Footer</CardFooter>
         </Card>
@@ -82,6 +90,7 @@ export const CardHeader: React.FC = () => {
           <UIKitCardHeader variant="violet">
             <Heading size="xl">Card Header</Heading>
           </UIKitCardHeader>
+          <CardSeperator />
           <CardBody>Body</CardBody>
           <CardFooter>Footer</CardFooter>
         </Card>
