@@ -1,9 +1,9 @@
 import React from "react";
-import { SvgProps } from "../../../components/Svg";
+// import { SvgProps } from "../../../components/Svg";
 import Toggle from "../../../components/Toggle/Toggle";
-import * as IconModule from "../icons";
+// import * as IconModule from "../icons";
 
-const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
+// const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
 
 interface Props {
   isDark: boolean;
