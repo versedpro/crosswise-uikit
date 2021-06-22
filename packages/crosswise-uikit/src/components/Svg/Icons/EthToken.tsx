@@ -7,7 +7,7 @@ const Icon: React.FC<SvgProps> = (props) => {
     <Svg viewBox="0 0 20 20" {...props}>
       {/* <path d="M0 0H20V20H0z" transform="translate(-605.000000, -616.000000) translate(605.000000, 616.000000)"/> */}
       <g
-        fill-rule="nonzero"
+        fillRule="nonzero"
         transform="translate(-605.000000, -616.000000) translate(605.000000, 616.000000) translate(1.666667, 1.666667)"
       >
         <circle cx="8.333" cy="8.333" r="8.333" fill="#464A75" />

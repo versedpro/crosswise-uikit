@@ -5,12 +5,12 @@ import { SvgProps } from "../types";
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 24 24" {...props}>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g>
           <g>
             <path d="M0 0H24V24H0z" transform="translate(-581.000000, -400.000000) translate(581.000000, 400.000000)" />
             <g
-              fill-rule="nonzero"
+              fillRule="nonzero"
               transform="translate(-581.000000, -400.000000) translate(581.000000, 400.000000) translate(2.000000, 2.000000)"
             >
               <circle cx="10" cy="10" r="10" fill="#3CC8C8" />
