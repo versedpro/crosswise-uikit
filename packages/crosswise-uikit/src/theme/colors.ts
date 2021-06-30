@@ -28,10 +28,10 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#141029",
   textDisabled: "#BDC2C4",
-  textSubtle: "#8f80ba",
+  textSubtle: "#141029",
   borderColor: "#E9EAEB",
   gradients: {
-    gradprimary: "linear-gradient(to right, #00ffaa , #4579f5 53%, #9c42f5)",
+    gradprimary: "linear-gradient(to bottom right, #00ffaa , #4579f5 53%, #9c42f5)",
     gradsecondary:
       "linear-gradient(110deg, rgba(245, 247, 250, 0.12), rgba(245, 247, 250, 0.06) 52%, rgba(245, 247, 250, 0) 100%)",
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
@@ -61,7 +61,7 @@ export const darkColors: Colors = {
   textSubtle: "#e0e0ff",
   borderColor: "#524B63",
   gradients: {
-    gradprimary: "linear-gradient(to right, #00ffaa , #4579f5 53%, #9c42f5)",
+    gradprimary: "linear-gradient(to bottom right, #00ffaa , #4579f5 53%, #9c42f5)",
     gradsecondary:
       "linear-gradient(101deg, rgba(245, 247, 250, 0.12), rgba(245, 247, 250, 0.06) 52%, rgba(245, 247, 250, 0) 100%)",
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
