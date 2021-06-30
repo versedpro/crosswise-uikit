@@ -56,6 +56,7 @@ const StyledButton = styled.button<BaseButtonProps>`
   justify-content: center;
   letter-spacing: 0.03em;
   line-height: 1;
+  white-space: nowrap;
   opacity: ${getOpacity};
   outline: 0;
   transition: background-color 0.2s, opacity 0.2s;

@@ -59,6 +59,10 @@ export const Input = styled.input<InputProps>`
   &:hover + ${Handle}:not(:disabled):not(:checked) {
     box-shadow: ${({ theme }) => theme.shadows.focus};
   }
+
+  &:not(:checked) + ${Handle} {
+    background-image: ${({ theme }) => theme.toggle.handleBackgroundImage};
+  }
 `;
 
 const StyledToggle = styled.div<ToggleProps>`
