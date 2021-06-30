@@ -35,6 +35,7 @@ export const StyledDiv = styled.div<StyledDivProps>`
   border-radius: 32px;
   box-shadow: ${getBoxShadow};
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
+  min-height: 280px;
   overflow: hidden;
   position: relative;
 
