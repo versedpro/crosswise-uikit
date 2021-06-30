@@ -40,7 +40,7 @@ export const styleVariants = {
   [variants.SECONDARYGRADIENT]: {
     backgroundImage:
       "linear-gradient(101deg, rgba(245, 247, 250, 0.12), rgba(245, 247, 250, 0.06) 52%, rgba(245, 247, 250, 0) 100%)",
-    color: "white",
+    color: "textSubtle",
     backdropFilter: "blur(40px)",
     border: "solid 1px rgba(245, 247, 250, 0.06)",
     boxShadow:
@@ -49,7 +49,7 @@ export const styleVariants = {
   [variants.TERTIARY]: {
     backgroundColor: "tertiary",
     boxShadow: "none",
-    color: "primary",
+    color: "textSubtle",
   },
   [variants.SUBTLE]: {
     backgroundColor: "textSubtle",
