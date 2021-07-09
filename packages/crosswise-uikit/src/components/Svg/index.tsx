@@ -16,6 +16,8 @@ export { default as CardViewIcon } from "./Icons/CardView";
 export { default as CalculateIcon } from "./Icons/Calculate";
 export { default as CircleOutlineIcon } from "./Icons/CircleOutline";
 export { default as ChartIcon } from "./Icons/Chart";
+export { default as ChartFIcon } from "./Icons/ChartF";
+export { default as ChartLIcon } from "./Icons/ChartL";
 export { default as CheckmarkIcon } from "./Icons/Checkmark";
 export { default as CheckmarkCircleIcon } from "./Icons/CheckmarkCircle";
 export { default as ChevronDownIcon } from "./Icons/ChevronDown";
