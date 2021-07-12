@@ -53,6 +53,7 @@ const StyledCard = styled.div<StyledCardProps>`
   // background-color: ${({ theme }) => theme.card.background};
   background-image: ${({ theme }) => theme.card.background};
   height: 100%;
+  min-height: 280px;
   width: 100%;
 
   ${space}
