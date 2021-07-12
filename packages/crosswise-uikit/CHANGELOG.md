@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.31.2](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.31.1...crosswise-uikit@0.31.2) (2021-07-12)
+
+
+### Bug Fixes
+
+* Fix to release ([75254ea](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/75254ea5c91f8d720339635295f81bfebb09912d))
+* Update text color on light theme ([0097bc4](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/0097bc44065c7fec9475a56297607a7064c5ba2d))
+
+
+
+
+
 ## [0.31.1](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.31.0...crosswise-uikit@0.31.1) (2021-06-22)
 
 **Note:** Version bump only for package crosswise-uikit
