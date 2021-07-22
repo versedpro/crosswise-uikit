@@ -15,6 +15,14 @@ const Container = styled.div`
   padding: 8px 4px;
   background-color: ${({ theme }) => theme.nav.background};
   border-top: solid 2px rgba(133, 133, 133, 0.1);
+
+  ${({ theme }) => theme.mediaQueries.xs} {
+    display: none;
+  }
+
+  ${({ theme }) => theme.mediaQueries.lg} {
+    display: block;
+  }
 `;
 
 const SettingsEntry = styled.div`

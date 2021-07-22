@@ -18,6 +18,25 @@ const blink = keyframes`
   50% { transform:  scaleY(0.1); } 
 `;
 
+const StyledFlex = styled(Flex)`
+  ${({ theme }) => theme.mediaQueries.xs} {
+    margin-left: 24px;
+  }
+  ${({ theme }) => theme.mediaQueries.lg} {
+    margin-left: inherit;
+  }
+`;
+
+const StyledToggleMenu = styled.div`
+  display: flex;
+  align-items: center;
+  display: none;
+
+  ${({ theme }) => theme.mediaQueries.lg} {
+    display: block;
+  }
+`;
+
 const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
@@ -58,14 +77,16 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   );
 
   return (
-    <Flex>
-      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
-        {isPushed ? (
-          <HamburgerCloseIcon width="24px" color="textSubtle" />
-        ) : (
-          <HamburgerIcon width="24px" color="textSubtle" />
-        )}
-      </MenuButton>
+    <StyledFlex>
+      <StyledToggleMenu>
+        <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
+          {isPushed ? (
+            <HamburgerCloseIcon width="24px" color="textSubtle" />
+          ) : (
+            <HamburgerIcon width="24px" color="textSubtle" />
+          )}
+        </MenuButton>
+      </StyledToggleMenu>
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Crosswise home page">
           {innerLogo}
@@ -75,7 +96,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
           {innerLogo}
         </StyledLink>
       )}
-    </Flex>
+    </StyledFlex>
   );
 };
 
