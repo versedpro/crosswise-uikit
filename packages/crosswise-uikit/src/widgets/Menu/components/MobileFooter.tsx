@@ -1,13 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { CogIcon } from "../../../components/Svg";
-import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
 import { LogoIcon as LogoWithText } from "../icons";
-import CrssPrice from "./CrssPrice";
-import SocialLinks from "./SocialLinks";
-import LangSelector from "./LangSelector";
 import { Text } from "../../../components/Text";
 
 interface Props extends PanelProps, PushedProps {}
@@ -103,7 +98,7 @@ const CopyrightEntry = styled.div`
   opacity: 0.6;
 `;
 
-const MobileFooter: React.FC<Props> = ({ isDark, crssPriceUsd, currentLang, langs, setLang }) => {
+const MobileFooter: React.FC<Props> = ({ isDark }) => {
   return (
     <Container>
       <LogoEntry>
