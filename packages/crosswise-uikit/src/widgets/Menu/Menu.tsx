@@ -11,6 +11,9 @@ import ThemeSwitcher from "./components/ThemeSwitcher";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
+import MenuButton from "./components/MenuButton";
+import { HamburgerCloseIcon, HamburgerIcon } from "./icons";
+import MobileFooter from "./components/MobileFooter";
 
 const Wrapper = styled.div`
   position: relative;
@@ -44,6 +47,15 @@ const BodyWrapper = styled.div`
 const StyledVCenter = styled.div`
   display: flex;
   align-items: center;
+`;
+
+const StyledMobileToggleMenu = styled.div`
+  display: flex;
+  align-items: center;
+
+  ${({ theme }) => theme.mediaQueries.lg} {
+    display: none;
+  }
 `;
 
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
@@ -137,6 +149,19 @@ const Menu: React.FC<NavProps> = ({
           <StyledVCenter>
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
           </StyledVCenter>
+          <StyledMobileToggleMenu>
+            <MenuButton
+              aria-label="Toggle menu"
+              onClick={() => setIsPushed((prevState: boolean) => !prevState)}
+              mr="24px"
+            >
+              {isPushed ? (
+                <HamburgerCloseIcon width="24px" color="textSubtle" />
+              ) : (
+                <HamburgerIcon width="24px" color="textSubtle" />
+              )}
+            </MenuButton>
+          </StyledMobileToggleMenu>
         </Flex>
       </StyledNav>
       <BodyWrapper>
@@ -155,6 +180,17 @@ const Menu: React.FC<NavProps> = ({
         />
         <Inner isPushed={isPushed} showMenu={showMenu}>
           {children}
+          <MobileFooter
+            isPushed={isPushed}
+            isDark={isDark}
+            toggleTheme={toggleTheme}
+            langs={langs}
+            setLang={setLang}
+            currentLang={currentLang}
+            crssPriceUsd={crssPriceUsd}
+            pushNav={setIsPushed}
+            links={links}
+          />
         </Inner>
         <MobileOnlyOverlay show={isPushed} onClick={() => setIsPushed(false)} role="presentation" />
       </BodyWrapper>
