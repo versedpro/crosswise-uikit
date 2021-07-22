@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.31.3](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.31.2...crosswise-uikit@0.31.3) (2021-07-22)
+
+
+### Bug Fixes
+
+* Eslint error issue ([3648180](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/3648180401782b3597fbce51cd07b9e61d05ac98))
+* Eslint issue ([403b2a1](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/403b2a1b05a7e1b57812e151bafc4f84709c2e28))
+* Eslint issue with reassigned variable ([b77d22c](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/b77d22c9ea98c61eb3f37e2ee80c32111b5a2031))
+
+
+
+
+
 ## [0.31.2](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.31.1...crosswise-uikit@0.31.2) (2021-07-12)
 
 
