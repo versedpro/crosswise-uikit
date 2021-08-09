@@ -32,7 +32,8 @@ const getBoxShadow = ({ isActive, isSuccess, isWarning, theme }: StyledCardProps
 export const StyledDiv = styled.div<StyledDivProps>`
   backdrop-filter: blur(40px);
   border: ${({ theme }) => theme.card.boxShadow};
-  border-radius: 32px;
+  border-radius: 12px;
+  border: solid 1px rgba(245, 247, 250, 0.06);
   box-shadow: ${getBoxShadow};
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
   min-height: 280px;
