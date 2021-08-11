@@ -3,7 +3,7 @@ import { shadows } from "../../theme/base";
 import { CardTheme } from "./types";
 
 export const light: CardTheme = {
-  background: lightColors.gradients.gradsecondary,
+  background: lightColors.backgroundAlt,
   boxShadow:
     "8px 8px 24px 0 rgba(9, 13, 20, 0.4), -4px -4px 8px 0 rgba(224, 224, 255, 0.04), 0 1px 1px 0 rgba(9, 13, 20, 0.4)",
   // boxShadow: "solid 1px rgba(245, 247, 250, 0.06)",
@@ -19,7 +19,7 @@ export const light: CardTheme = {
 };
 
 export const dark: CardTheme = {
-  background: darkColors.gradients.gradsecondary,
+  background: darkColors.backgroundAlt,
   boxShadow:
     "8px 8px 24px 0 rgba(9, 13, 20, 0.4), -4px -4px 8px 0 rgba(224, 224, 255, 0.04), 0 1px 1px 0 rgba(9, 13, 20, 0.4)",
   // boxShadow: "solid 1px rgba(245, 247, 250, 0.06)",
