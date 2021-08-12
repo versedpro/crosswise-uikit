@@ -30,6 +30,7 @@ export const lightColors: Colors = {
   textDisabled: "#BDC2C4",
   textSubtle: "#141029",
   cardBorder: "#E9EAEB",
+  disabled: "#E9EAEB",
   gradients: {
     gradprimary: "linear-gradient(to bottom right, #00ffaa , #4579f5 53%, #9c42f5)",
     gradsecondary:
@@ -60,6 +61,7 @@ export const darkColors: Colors = {
   textDisabled: "#666171",
   textSubtle: "#e0e0ff",
   cardBorder: "#524B63",
+  disabled: "#524B63",
   gradients: {
     gradprimary: "linear-gradient(to bottom right, #00ffaa , #4579f5 53%, #9c42f5)",
     gradsecondary:
