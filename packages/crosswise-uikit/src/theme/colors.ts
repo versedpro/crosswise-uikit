@@ -30,7 +30,8 @@ export const lightColors: Colors = {
   textSecondary: "rgba(20, 1, 41, 0.4)",
   textDisabled: "#BDC2C4",
   textSubtle: "#141029",
-  borderColor: "#E9EAEB",
+  cardBorder: "#E9EAEB",
+  disabled: "#E9EAEB",
   gradients: {
     gradprimary: "linear-gradient(to bottom right, #00ffaa , #4579f5 53%, #9c42f5)",
     gradsecondary:
@@ -61,7 +62,8 @@ export const darkColors: Colors = {
   textSecondary: "rgba(224, 224, 255, 0.4)",
   textDisabled: "#666171",
   textSubtle: "#e0e0ff",
-  borderColor: "#524B63",
+  cardBorder: "#524B63",
+  disabled: "#524B63",
   gradients: {
     gradprimary: "linear-gradient(to bottom right, #00ffaa , #4579f5 53%, #9c42f5)",
     gradsecondary:

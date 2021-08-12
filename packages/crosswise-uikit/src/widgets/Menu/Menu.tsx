@@ -81,9 +81,11 @@ const MobileOnlyOverlay = styled(Overlay)`
 `;
 
 const Menu: React.FC<NavProps> = ({
-  account,
-  login,
-  logout,
+  // account,
+  // login,
+  // logout,
+  userMenu,
+  globalMenu,
   isDark,
   toggleTheme,
   langs,
@@ -91,7 +93,7 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   crssPriceUsd,
   links,
-  profile,
+  // profile,
   children,
 }) => {
   const { isXl } = useMatchBreakpoints();
@@ -142,10 +144,12 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
-          <StyledVCenter>
+          {/* <StyledVCenter>
             <UserBlock account={account} login={login} logout={logout} />
           </StyledVCenter>
-          <StyledVCenter>{profile && <Avatar profile={profile} />}</StyledVCenter>
+          <StyledVCenter>{profile && <Avatar profile={profile} />}</StyledVCenter> */}
+          <StyledVCenter>{globalMenu}</StyledVCenter>
+          <StyledVCenter>{userMenu}</StyledVCenter>
           <StyledVCenter>
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
           </StyledVCenter>
