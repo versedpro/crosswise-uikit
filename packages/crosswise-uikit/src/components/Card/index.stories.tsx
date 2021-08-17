@@ -48,6 +48,18 @@ export const Default: React.FC = () => {
         </Card>
       </Row>
       <Row>
+        <Card isGradient>
+          <CardBody>Gradient</CardBody>
+          <CardFooter>Footer</CardFooter>
+        </Card>
+      </Row>
+      <Row>
+        <Card isGradient isBeta>
+          <CardBody>Gradient Beta</CardBody>
+          <CardFooter>Footer</CardFooter>
+        </Card>
+      </Row>
+      <Row>
         <Card isDisabled>
           <CardBody>Disabled</CardBody>
           <CardFooter>Footer</CardFooter>

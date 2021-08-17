@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.3](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.2...crosswise-uikit@0.32.3) (2021-08-17)
+
+
+### Bug Fixes
+
+* **card background:** Update card background with gradient ([15aae37](https://github.com/crosswise-finance/crosswise-toolkit/commit/15aae37d6f075af1b6b3f51556d57aeed6f1f7a1))
+* **git script:** Expecting no issue ([871b09c](https://github.com/crosswise-finance/crosswise-toolkit/commit/871b09c5be4566ed58225f9bd3040d84da030baa))
+
+
+
+
+
 ## [0.32.2](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.1...crosswise-uikit@0.32.2) (2021-08-12)
 
 
