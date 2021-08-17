@@ -7,7 +7,7 @@ export const light: CardTheme = {
   gradientAlt: lightColors.gradients.gradprimary,
   gradientBeta: lightColors.gradients.gradsecondary,
   boxShadow:
-    "8px 8px 24px 0 rgba(9, 13, 20, 0.4), -4px -4px 8px 0 rgba(224, 224, 255, 0.04), 0 1px 1px 0 rgba(9, 13, 20, 0.4)",
+    "8px 8px 24px 0 rgba(9, 13, 20, 0.06), -4px -4px 8px 0 rgba(255, 255, 255, 0.4), 0 1px 1px 0 rgba(9, 13, 20, 0.06)",
   // boxShadow: "solid 1px rgba(245, 247, 250, 0.06)",
   boxShadowActive: shadows.active,
   boxShadowSuccess: shadows.success,
