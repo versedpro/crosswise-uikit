@@ -47,6 +47,7 @@ export const StyledCard = styled.div<StyledCardProps>`
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
   overflow: hidden;
   position: relative;
+  box-shadow: ${({ theme }) => theme.card.boxShadow};
 
   ${({ isActive }) =>
     isActive &&
@@ -69,12 +70,12 @@ export const StyledCardInner = styled(Box)<{
   width: 100%;
   height: 100%;
   overflow: ${({ hasCustomBorder }) => (hasCustomBorder ? "initial" : "inherit")};
-  background: ${({ hasGradientBack, isBeta, theme, background }) =>
-    hasGradientBack
-      ? !isBeta
-        ? theme.card.gradientAlt
-        : theme.card.gradientBeta
-      : background ?? theme.card.background};
+  background: ${({ hasGradientBack, isBeta, theme, background }) => {
+    if (hasGradientBack) {
+      return !isBeta ? theme.card.gradientAlt : theme.card.gradientBeta;
+    }
+    return background ?? theme.card.background;
+  }};
   // background: ${({ theme, background }) => background ?? theme.card.background};
   border-radius: ${({ theme }) => theme.radii.card};
 `;
