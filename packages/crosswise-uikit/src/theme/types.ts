@@ -55,6 +55,7 @@ export type Colors = {
   backgroundDisabled: string;
   backgroundAlt: string;
   text: string;
+  textSecondary: string;
   textDisabled: string;
   textSubtle: string;
   cardBorder: string;
