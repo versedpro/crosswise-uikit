@@ -5,12 +5,7 @@ import { CardProps } from "./types";
 const Card: React.FC<CardProps> = ({ ribbon, children, background, ...props }) => {
   return (
     <StyledCard {...props}>
-      <StyledCardInner
-        background={background}
-        hasCustomBorder={!!props.borderBackground}
-        hasGradientBack={!!props.isGradient}
-        isBeta={!!props.isBeta}
-      >
+      <StyledCardInner background={background} hasCustomBorder={!!props.borderBackground} isAlt={!!props.isAlt}>
         {ribbon}
         {children}
       </StyledCardInner>

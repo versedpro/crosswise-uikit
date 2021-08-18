@@ -5,8 +5,6 @@ import { SvgProps } from "../types";
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 24 24" {...props}>
-      {/* <path d="M0 0H24V24H0z" transform="translate(-821.000000, -400.000000) translate(821.000000, 400.000000)"/> */}
-      {/* fill="#140129" */}
       <path
         fillRule="nonzero"
         opacity=".6"

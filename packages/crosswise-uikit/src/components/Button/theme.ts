@@ -32,19 +32,19 @@ export const styleVariants = {
     },
   },
   [variants.PRIMARYGRADIENT]: {
-    backgroundImage: "linear-gradient(to right, #00ffaa , #4579f5 53%, #9c42f5)",
+    background: "linear-gradient(to right, #00ffaa , #4579f5 53%, #9c42f5)",
     color: "white",
     boxShadow:
       "0 8px 8px -4px rgba(69, 121, 245, 0.12), 0 16px 24px 0 rgba(69, 121, 245, 0.24), 0 2px 4px -1px rgba(27, 10, 82, 0.12), 0 0 1px 0 rgba(69, 121, 245, 0.24)",
   },
   [variants.SECONDARYGRADIENT]: {
-    backgroundImage:
-      "linear-gradient(101deg, rgba(245, 247, 250, 0.12), rgba(245, 247, 250, 0.06) 52%, rgba(245, 247, 250, 0) 100%)",
-    color: "textSubtle",
+    background:
+      "linear-gradient(to bottom right, rgba(245, 247, 250, 0.12), rgba(245, 247, 250, 0.06) 52%, rgba(245, 247, 250, 0) 100%)",
+    color: "text",
     backdropFilter: "blur(40px)",
     border: "solid 1px rgba(245, 247, 250, 0.06)",
     boxShadow:
-      "0 8px 8px -4px rgba(69, 121, 245, 0.12), 0 16px 24px 0 rgba(69, 121, 245, 0.24), 0 2px 4px -1px rgba(27, 10, 82, 0.12), 0 0 1px 0 rgba(69, 121, 245, 0.24)",
+      "0 12px 12px -4px rgba(20, 16, 41, 0.06), 0 4px 4px -1px rgba(20, 16, 41, 0.06), 0 1px 1px 0 rgba(20, 16, 41, 0.12);",
   },
   [variants.TERTIARY]: {
     backgroundColor: "tertiary",

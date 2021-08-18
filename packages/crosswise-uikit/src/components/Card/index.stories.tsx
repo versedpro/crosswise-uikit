@@ -48,14 +48,8 @@ export const Default: React.FC = () => {
         </Card>
       </Row>
       <Row>
-        <Card isGradient>
-          <CardBody>Gradient</CardBody>
-          <CardFooter>Footer</CardFooter>
-        </Card>
-      </Row>
-      <Row>
-        <Card isGradient isBeta>
-          <CardBody>Gradient Beta</CardBody>
+        <Card isAlt>
+          <CardBody>Gradient Alt</CardBody>
           <CardFooter>Footer</CardFooter>
         </Card>
       </Row>
