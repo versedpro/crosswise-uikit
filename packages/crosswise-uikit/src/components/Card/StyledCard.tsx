@@ -42,7 +42,8 @@ const getBorderColor = ({ isActive, isSuccess, isWarning, borderBackground, them
 };
 
 export const StyledCard = styled.div<StyledCardProps>`
-  background: ${getBorderColor};
+  // background: ${getBorderColor};
+  border: 1px solid ${getBorderColor};
   border-radius: ${({ theme }) => theme.radii.card};
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
   overflow: hidden;
@@ -52,11 +53,12 @@ export const StyledCard = styled.div<StyledCardProps>`
   ${({ isActive }) =>
     isActive &&
     css`
+      background: ${getBorderColor};
       animation: ${PromotedGradient} 3s ease infinite;
       background-size: 400% 400%;
     `}
 
-  padding: 1px 1px 3px 1px;
+  // padding: 1px 1px 1px 1px;
 
   ${space}
 `;
@@ -64,17 +66,16 @@ export const StyledCard = styled.div<StyledCardProps>`
 export const StyledCardInner = styled(Box)<{
   background?: string;
   hasCustomBorder: boolean;
-  hasGradientBack?: boolean;
-  isBeta?: boolean;
+  isAlt?: boolean;
 }>`
   width: 100%;
   height: 100%;
   overflow: ${({ hasCustomBorder }) => (hasCustomBorder ? "initial" : "inherit")};
-  background: ${({ hasGradientBack, isBeta, theme, background }) => {
-    if (hasGradientBack) {
-      return !isBeta ? theme.card.gradientAlt : theme.card.gradientBeta;
+  background: ${({ isAlt, theme, background }) => {
+    if (background) {
+      return background ?? theme.card.background;
     }
-    return background ?? theme.card.background;
+    return isAlt ? theme.card.gradientAlt : theme.card.gradientBeta;
   }};
   // background: ${({ theme, background }) => background ?? theme.card.background};
   border-radius: ${({ theme }) => theme.radii.card};

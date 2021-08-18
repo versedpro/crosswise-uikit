@@ -33,7 +33,7 @@ const spacing: Spacing = [0, 4, 8, 16, 24, 32, 48, 64];
 const radii = {
   small: "4px",
   default: "16px",
-  card: "32px",
+  card: "12px",
   circle: "50%",
 };
 
