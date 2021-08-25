@@ -2,7 +2,15 @@ import React from "react";
 import { useTheme } from "styled-components";
 import Heading from "../../components/Heading/Heading";
 import getThemeValue from "../../util/getThemeValue";
-import { ModalBody, ModalHeader, ModalHeaderBorder, ModalTitle, ModalContainer, ModalCloseButton, ModalBackButton } from "./styles";
+import {
+  ModalBody,
+  ModalHeader,
+  ModalHeaderBorder,
+  ModalTitle,
+  ModalContainer,
+  ModalCloseButton,
+  ModalBackButton,
+} from "./styles";
 import { ModalProps } from "./types";
 
 const Modal: React.FC<ModalProps> = ({
@@ -27,7 +35,9 @@ const Modal: React.FC<ModalProps> = ({
         {!hideCloseButton && <ModalCloseButton onDismiss={onDismiss} />}
       </ModalHeader>
       <ModalHeaderBorder />
-      <ModalBody p={bodyPadding} background={getThemeValue(`colors.${headerBackground}`, headerBackground)(theme)}>{children}</ModalBody>
+      <ModalBody p={bodyPadding} background={getThemeValue(`colors.${headerBackground}`, headerBackground)(theme)}>
+        {children}
+      </ModalBody>
     </ModalContainer>
   );
 };

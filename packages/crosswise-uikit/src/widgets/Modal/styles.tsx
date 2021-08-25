@@ -18,7 +18,12 @@ export const ModalHeaderBorder = styled.div`
   height: 1px;
   border-style: solid;
   border-width: 1px;
-  border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.12) 51%, rgba(255, 255, 255, 0.02));
+  border-image-source: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.12) 51%,
+    rgba(255, 255, 255, 0.02)
+  );
   border-image-slice: 1;
   margin: -1px 24px;
 `;
