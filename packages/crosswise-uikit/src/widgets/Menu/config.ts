@@ -63,6 +63,36 @@ export const links = [
     status: status.SOON,
   },
   {
+    label: "CardIcon",
+    icon: "CardIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
+  {
+    label: "ExplorerIcon",
+    icon: "ExplorerIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
+  {
+    label: "StatisticIcon",
+    icon: "StatisticIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
+  {
+    label: "SettingsIcon",
+    icon: "SettingsIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
+  {
+    label: "LotteryIcon",
+    icon: "LotteryIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
+  {
     label: "Profile & Teams",
     icon: "GroupsIcon",
     status: status.LIVE,
