@@ -9,9 +9,18 @@ import { ModalProps } from "./types";
 export const ModalHeader = styled.div<{ background?: string }>`
   align-items: center;
   background: ${({ background }) => background || "transparent"};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
+  /* border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder}; */
   display: flex;
   padding: 12px 24px;
+`;
+
+export const ModalHeaderBorder = styled.div`
+  height: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.12) 51%, rgba(255, 255, 255, 0.02));
+  border-image-slice: 1;
+  margin: -1px 24px;
 `;
 
 export const ModalTitle = styled(Flex)`
@@ -46,7 +55,7 @@ export const ModalContainer = styled(Box)<{ minWidth: string }>`
   background: ${({ theme }) => theme.modal.background};
   box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 32px;
+  border-radius: 12px;
   width: 100%;
   max-height: 100vh;
   z-index: ${({ theme }) => theme.zIndices.modal};
