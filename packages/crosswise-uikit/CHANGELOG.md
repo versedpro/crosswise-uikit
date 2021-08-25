@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.6](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.5...crosswise-uikit@0.32.6) (2021-08-25)
+
+
+### Bug Fixes
+
+* Update icons ([3c72490](https://github.com/crosswise-finance/crosswise-toolkit/commit/3c724900430ee74ce2323b84ab93ae32dac73f84))
+
+
+
+
+
+
 ## [0.32.5](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.4...crosswise-uikit@0.32.5) (2021-08-23)
 
 **Note:** Version bump only for package crosswise-uikit
