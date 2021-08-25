@@ -8,8 +8,8 @@ const Icon: React.FC<SvgProps> = (props) => {
       {/* <path d="M12 6H36V30H12z" transform="translate(-290.000000, -972.000000) translate(290.000000, 972.000000)"/> */}
       <text
         fill="#141029"
-        font-family="AppleColorEmoji, Apple Color Emoji"
-        font-size="24"
+        fontFamily="AppleColorEmoji, Apple Color Emoji"
+        fontSize="24"
         transform="translate(-290.000000, -972.000000) translate(290.000000, 972.000000)"
       >
         <tspan x="7" y="24">
