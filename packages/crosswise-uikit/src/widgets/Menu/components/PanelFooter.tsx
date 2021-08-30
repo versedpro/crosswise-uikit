@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { CogIcon } from "../../../components/Svg";
+import { CogIcon, MessageIcon, CommentIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
@@ -36,8 +36,8 @@ const PFComponent = styled.div`
   border-width: 1px;
   border-image: ${({ theme }) =>
     theme.isDark
-      ? "linear-gradient(to right, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.12) 51%, rgba(255, 255, 255, 0.02)) 1 0 0"
-      : "linear-gradient(to right, rgba(20, 1, 41, 0.02), rgba(20, 1, 41, 0.12) 51%, rgba(20, 1, 41, 0.02))  1 0 0"};
+      ? "linear-gradient(to right, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0.02) 5%, rgba(255, 255, 255, 0.12) 51%, rgba(255, 255, 255, 0.02) 95%, rgba(255, 255, 255, 0) 95%) 1 0 0"
+      : "linear-gradient(to right, rgba(255, 255, 255, 0) 5%, rgba(20, 1, 41, 0.02), rgba(20, 1, 41, 0.12) 51%, rgba(20, 1, 41, 0.02) 95%, rgba(255, 255, 255, 0) 95%)  1 0 0"};
 `;
 
 const SettingsEntry = styled(PFComponent)`
@@ -61,7 +61,9 @@ const StyledContact = styled.div`
 `;
 
 const Link = styled(Text)`
-  color: textSubtle;
+  color: ${({ theme }) => theme.colors.textSubtle};
+  margin-left: 8px;
+  align-items: center;
   font-size: 13px;
   opacity: 0.6;
 `;
@@ -88,9 +90,11 @@ const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, crssPriceUsd, current
       </SettingsEntry>
       <ContactEntry>
         <StyledContact>
+          <MessageIcon />
           <Link>partnership@crosswise.io</Link>
         </StyledContact>
         <StyledContact>
+          <CommentIcon />
           <Link>Support</Link>
         </StyledContact>
       </ContactEntry>

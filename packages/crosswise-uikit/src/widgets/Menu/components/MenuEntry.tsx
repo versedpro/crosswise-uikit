@@ -35,6 +35,8 @@ const MenuEntry = styled.div<Props>`
   font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
   color: ${({ isActive, theme }) => (isActive ? theme.colors.primary : theme.colors.textSubtle)};
   box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
+  opacity: ${({ isActive }) => (isActive ? 1 : 0.6)};
+  ${({ isActive }) => (isActive ? "background: rgba(0, 184, 185, 0.03)" : "")};
 
   a {
     display: flex;
