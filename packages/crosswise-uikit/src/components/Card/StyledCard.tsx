@@ -54,7 +54,7 @@ export const StyledCard = styled.div<StyledCardProps>`
   ${({ isActive }) =>
     isActive &&
     css`
-      background: ${getBorderColor};
+      // background: ${getBorderColor};
       animation: ${PromotedGradient} 3s ease infinite;
       background-size: 400% 400%;
     `}

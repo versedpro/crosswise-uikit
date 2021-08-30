@@ -2,9 +2,9 @@ import React from "react";
 import Text from "../../../components/Text/Text";
 import Dropdown from "../../../components/Dropdown/Dropdown";
 import Button from "../../../components/Button/Button";
-import LanguageIcon from "../../../components/Svg/Icons/Language";
 import { Language } from "../types";
 import MenuButton from "./MenuButton";
+import { ChevronDownIcon } from "../../../components/Svg";
 
 interface Props {
   currentLang: string;
@@ -16,8 +16,10 @@ const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
   <Dropdown
     position="top-right"
     target={
-      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
-        <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
+      <Button variant="text" endIcon={<ChevronDownIcon color="textSubtle" style={{ opacity: 0.6 }} width="24px" />}>
+        <Text color="textSubtle" style={{ opacity: 0.6 }}>
+          {currentLang?.toUpperCase()}
+        </Text>
       </Button>
     }
   >
