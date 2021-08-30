@@ -60,7 +60,7 @@ const StyledContact = styled.div`
   height: 36px;
 `;
 
-const Link = styled(Text)`
+const ContactLink = styled(Text)`
   color: ${({ theme }) => theme.colors.textSubtle};
   margin-left: 8px;
   align-items: center;
@@ -91,11 +91,11 @@ const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, crssPriceUsd, current
       <ContactEntry>
         <StyledContact>
           <MessageIcon />
-          <Link>partnership@crosswise.io</Link>
+          <ContactLink>partnership@crosswise.io</ContactLink>
         </StyledContact>
         <StyledContact>
           <CommentIcon />
-          <Link>Support</Link>
+          <ContactLink>Support</ContactLink>
         </StyledContact>
       </ContactEntry>
     </Container>
