@@ -14,6 +14,7 @@ import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config
 import MenuButton from "./components/MenuButton";
 import { HamburgerCloseIcon, HamburgerIcon } from "./icons";
 import MobileFooter from "./components/MobileFooter";
+import { Text } from "../../components/Text";
 
 const Wrapper = styled.div`
   position: relative;
@@ -47,6 +48,7 @@ const BodyWrapper = styled.div`
 const StyledVCenter = styled.div`
   display: flex;
   align-items: center;
+  margin-left: 18px;
 `;
 
 const StyledMobileToggleMenu = styled.div`
@@ -152,6 +154,9 @@ const Menu: React.FC<NavProps> = ({
           <StyledVCenter>{userMenu}</StyledVCenter>
           <StyledVCenter>
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+          </StyledVCenter>
+          <StyledVCenter>
+            <Text color="text">Dark Mode</Text>
           </StyledVCenter>
           <StyledMobileToggleMenu>
             <MenuButton
