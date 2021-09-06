@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/crosswise-finance/crosswise-toolkit/compare/eslint-config-crosswise@1.0.6...eslint-config-crosswise@1.0.7) (2021-09-06)
+
+**Note:** Version bump only for package eslint-config-crosswise
+
+
+
+
+
+
 ## [1.0.6](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/eslint-config-crosswise/compare/eslint-config-crosswise@1.0.4...eslint-config-crosswise@1.0.6) (2021-06-09)
 
 **Note:** Version bump only for package eslint-config-crosswise
