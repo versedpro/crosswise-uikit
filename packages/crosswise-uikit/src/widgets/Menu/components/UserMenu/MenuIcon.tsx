@@ -9,17 +9,17 @@ const MenuIconWrapper = styled.div<{ borderColor: keyof Colors }>`
   align-items: center;
   background-color: ${({ theme }) => theme.colors.background};
   border-color: ${({ theme, borderColor }) => theme.colors[borderColor]};
-  border-radius: 50%;
+  border-radius: 2px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0;
   display: flex;
-  height: 40px;
+  height: 36px;
   justify-content: center;
-  right: 0;
+  right: 4px;
   // left: 0;
   position: absolute;
-  top: -4px;
-  width: 40px;
+  top: 4px;
+  width: 36px;
   z-index: 102;
 `;
 

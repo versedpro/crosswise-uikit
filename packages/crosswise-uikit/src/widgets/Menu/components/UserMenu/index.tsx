@@ -10,14 +10,14 @@ import { UserMenuItem } from "./styles";
 
 const StyledUserMenu = styled(Flex)`
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.tertiary};
-  border-radius: 16px;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  background-color: ${({ theme }) => theme.colors.input};
+  border-radius: 6px;
+  // box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   display: inline-flex;
-  height: 32px;
+  height: 44px;
   padding-left: 8px;
-  padding-right: 40px;
+  padding-right: 48px;
   position: relative;
 
   &:hover {
@@ -27,6 +27,7 @@ const StyledUserMenu = styled(Flex)`
 
 const LabelText = styled.div`
   color: ${({ theme }) => theme.colors.text};
+  opacity: 0.8;
   display: none;
   font-weight: 600;
 
@@ -39,6 +40,7 @@ const LabelText = styled.div`
 
 const Menu = styled.div<{ isOpen: boolean }>`
   background-color: ${({ theme }) => theme.card.background};
+  background-image: ${({ theme }) => theme.card.gradientBeta};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
   border-radius: 16px;
   padding-bottom: 4px;
