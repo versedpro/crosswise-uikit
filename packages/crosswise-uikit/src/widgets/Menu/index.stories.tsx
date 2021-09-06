@@ -159,7 +159,6 @@ export const Connected: React.FC = () => {
 };
 
 export const NotConnected: React.FC = () => {
-  const props = useProps();
   return (
     <BrowserRouter>
       <Menu isDark={false} toggleTheme={noop} langs={langs} setLang={noop} currentLang="EN" links={links}>
