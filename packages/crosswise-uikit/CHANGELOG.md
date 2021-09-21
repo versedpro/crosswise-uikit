@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.12](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.11...crosswise-uikit@0.32.12) (2021-09-21)
+
+
+### Bug Fixes
+
+* **& release:** Add Card icon ([f96ce58](https://github.com/crosswise-finance/crosswise-toolkit/commit/f96ce587fff2719c27cbfd24f48e6b9642aabde8))
+
+
+
+
+
+
 ## [0.32.11](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.10...crosswise-uikit@0.32.11) (2021-09-07)
 
 **Note:** Version bump only for package crosswise-uikit
