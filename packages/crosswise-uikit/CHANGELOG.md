@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2021-09-22)
+
+
+### Bug Fixes
+
+* **& release:** Add Card icon ([f96ce58](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/f96ce587fff2719c27cbfd24f48e6b9642aabde8))
+* **and release:** Update modal ([9f2094f](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/9f2094f6f8eaa8af65d1cf16c898a7a82e0e6306))
+* **card background:** Update card background with gradient ([15aae37](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/15aae37d6f075af1b6b3f51556d57aeed6f1f7a1))
+* **eslint config:** Fixed eslint issue ([b9e9272](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/b9e9272704113dabdb34e2ba2ac5d5f81f142334))
+* **eslint issue:** Fixed eslint issue from link component ([95336a7](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/95336a764ace0db994241969f3788ddb64c13d87))
+* Eslint error issue ([3648180](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/3648180401782b3597fbce51cd07b9e61d05ac98))
+* Eslint issue ([403b2a1](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/403b2a1b05a7e1b57812e151bafc4f84709c2e28))
+* Eslint issue with reassigned variable ([b77d22c](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/b77d22c9ea98c61eb3f37e2ee80c32111b5a2031))
+* Fix to release ([75254ea](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/75254ea5c91f8d720339635295f81bfebb09912d))
+* Update icons ([3c72490](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/3c724900430ee74ce2323b84ab93ae32dac73f84))
+* **git script:** Expecting no issue ([871b09c](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/871b09c5be4566ed58225f9bd3040d84da030baa))
+* Update text color on light theme ([0097bc4](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/0097bc44065c7fec9475a56297607a7064c5ba2d))
+
+
+### Features
+
+* **uikit-package.json:** Update scoped package name ([bbca54d](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/bbca54dd113a3be2b100bf1db45a88befaf59c02))
+* Update for new frontend version ([3d4b3a1](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/3d4b3a1d5d1b37a502acbf36a044d04922252da2))
+* update panel with gradient effect ([36ccc75](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/36ccc7504cc9590b775b25758f7bbdf8fabfb462))
+
+
+
+
+
 ## [0.32.12](https://github.com/crosswise-finance/crosswise-toolkit/compare/crosswise-uikit@0.32.11...crosswise-uikit@0.32.12) (2021-09-21)
 
 
