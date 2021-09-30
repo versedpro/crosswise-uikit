@@ -109,6 +109,7 @@ export { default as PresentCheckIcon } from "./Icons/PresentCheck";
 export { default as PresentWonIcon } from "./Icons/PresentWon";
 export { default as PresentNoneIcon } from "./Icons/PresentNone";
 export { default as SafePalIcon } from "./Icons/SafePal";
+export { default as SettingIcon } from "./Icons/Setting";
 export { default as SmallDotIcon } from "./Icons/SmallDot";
 export { default as StarFillIcon } from "./Icons/StarFill";
 export { default as StarLineIcon } from "./Icons/StarLine";
