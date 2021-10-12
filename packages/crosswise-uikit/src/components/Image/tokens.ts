@@ -11,6 +11,24 @@ const tokens = {
     decimals: 18,
     projectLink: "https://pancakeswap.finance/",
   },
+  crss: {
+    symbol: "CRSS",
+    address: {
+      56: "",
+      97: "0xA98D21C3D61A7EB9Dd3BE9C9a1132Abb7c7Be2Dd",
+    },
+    decimals: 18,
+    projectLink: "",
+  },
+  xcrss: {
+    symbol: "XCRSS",
+    address: {
+      56: "",
+      97: "0x8c4A608335f641bA2304586178F7F23BCa862234",
+    },
+    decimals: 18,
+    projectLink: "",
+  },
   txl: {
     symbol: "TXL",
     address: {
