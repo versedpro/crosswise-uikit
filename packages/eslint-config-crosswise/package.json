@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-crosswise",
+  "name": "@crosswise/eslint-config-crosswise",
   "version": "1.0.7",
   "description": "Eslint config for crosswise",
   "main": "lib/index.js",
