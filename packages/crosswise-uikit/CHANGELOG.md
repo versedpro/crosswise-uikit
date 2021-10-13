@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/crosswise-finance/crosswise-toolkit/compare/@crosswise/uikit@0.2.4...@crosswise/uikit@0.2.5) (2021-10-13)
+
+
+### Bug Fixes
+
+* TokenPairImage style update ([42f57d2](https://github.com/crosswise-finance/crosswise-toolkit/commit/42f57d20ef3d5a8f0de01a4241cb3c274a9d6ef6))
+
+
+
+
+
+
 ## [0.2.4](https://github.com/crosswise-finance/crosswise-toolkit/compare/@crosswise/uikit@0.2.3...@crosswise/uikit@0.2.4) (2021-10-12)
 
 **Note:** Version bump only for package @crosswise/uikit
