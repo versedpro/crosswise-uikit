@@ -1,14 +1,17 @@
 {
   "name": "@crosswise/eslint-config-crosswise",
-  "version": "1.0.7",
+  "version": "0.0.1",
   "description": "Eslint config for crosswise",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/eslint-config-crosswise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/eslint-config-crosswise"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "cwgoodjdea",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
@@ -27,5 +30,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "807c8c4fee133421e99e10da8406213f73fd652e"
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crosswise"
+  ]
 }
