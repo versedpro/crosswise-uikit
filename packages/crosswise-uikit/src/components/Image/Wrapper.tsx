@@ -5,9 +5,11 @@ import { WrapperProps } from "./types";
 
 const StyledWrapper = styled.div<{ $width: number; $height: number }>`
   max-height: ${({ $height }) => $height}px;
-  max-width: ${({ $width }) => $width}px;
+  max-width: ${({ $width }) => $width * 2}px;
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: center;
 
   &:after {
     content: "";
