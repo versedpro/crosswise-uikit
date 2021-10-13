@@ -1,6 +1,6 @@
 {
   "name": "@crosswise/eslint-config-crosswise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint config for crosswise",
   "main": "lib/index.js",
   "files": [
@@ -33,7 +33,6 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
