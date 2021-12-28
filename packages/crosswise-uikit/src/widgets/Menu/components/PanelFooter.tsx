@@ -91,11 +91,15 @@ const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, crssPriceUsd, current
       <ContactEntry>
         <StyledContact>
           <MessageIcon />
-          <ContactLink>partnership@crosswise.io</ContactLink>
+          <ContactLink>
+            <a href="mailto:support@crosswise.finance">support@crosswise.finance</a>
+          </ContactLink>
         </StyledContact>
         <StyledContact>
           <CommentIcon />
-          <ContactLink>Support</ContactLink>
+          <ContactLink>
+            <a href="mailto:support@crosswise.finance">Support</a>
+          </ContactLink>
         </StyledContact>
       </ContactEntry>
     </Container>

@@ -156,7 +156,7 @@ const Menu: React.FC<NavProps> = ({
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
           </StyledVCenter>
           <StyledVCenter>
-            <Text color="text">Dark Mode</Text>
+            <Text color="text">Dark</Text>
           </StyledVCenter>
           <StyledMobileToggleMenu>
             <MenuButton
