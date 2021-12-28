@@ -8,7 +8,7 @@ import { Text } from "../../../components/Text";
 interface Props extends PanelProps, PushedProps {}
 
 const Container = styled.div`
-  padding: 8px 4px;
+  padding: 8px 32px;
 
   ${({ theme }) => theme.mediaQueries.xs} {
     display: block;
