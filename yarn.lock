@@ -6582,6 +6582,20 @@ eslint-config-airbnb@^18.2.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
+eslint-config-crosswise@^1.0.6:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-crosswise/-/eslint-config-crosswise-1.0.7.tgz#f5566e4abdd24911b6c2a0e9880ef929ce9b69d7"
+  integrity sha512-D6Y/76IQqGl0DP0gjsoWjJ6nqpDL+9SCS5kwwjRG420VEGjYRuOumyPa/M3gT/85vMo7BFF5lwV11C8PYSsDyw==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^4.7.0"
+    "@typescript-eslint/parser" "^4.7.0"
+    eslint-config-airbnb "^18.2.1"
+    eslint-config-prettier "^6.15.0"
+    eslint-plugin-import "^2.22.1"
+    eslint-plugin-jsx-a11y "^6.4.1"
+    eslint-plugin-react "^7.21.5"
+    eslint-plugin-react-hooks "^4.0.0"
+
 eslint-config-prettier@^6.15.0:
   version "6.15.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.15.0.tgz#7f93f6cb7d45a92f1537a70ecc06366e1ac6fed9"
