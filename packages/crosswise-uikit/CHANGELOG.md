@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.9](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise/uikit@0.2.8...@crosswise/uikit@0.2.9) (2022-01-04)
+
+
+### Bug Fixes
+
+* Crosswise icon on sidebar footer ([8b4910c](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/8b4910ce7111fe65a7d4dafcfb459bfcff6d7a98))
+* Eslint issue ([951701f](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/951701ff4e7c23a95af3f43499843f27068abae3))
+
+
+
+
+
 ## [0.2.8](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise/uikit@0.2.6...@crosswise/uikit@0.2.8) (2021-12-29)
 
 **Note:** Version bump only for package @crosswise/uikit
