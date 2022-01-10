@@ -175,6 +175,10 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
+        label: "Announcement",
+        href: "https://t.me/crosswise_a",
+      },
+      {
         label: "English",
         href: "https://t.me/crosswise",
       },
