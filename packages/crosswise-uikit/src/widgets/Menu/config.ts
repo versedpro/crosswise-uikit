@@ -175,35 +175,71 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
+        label: "Announcement",
+        href: "https://t.me/crosswise_a",
+      },
+      {
         label: "English",
         href: "https://t.me/crosswise",
+      },
+      {
+        label: "Arabic",
+        href: "https://t.me/crosswisearabic",
+      },
+      {
+        label: "Chinese",
+        href: "https://t.me/crosswisechinese",
+      },
+      {
+        label: "Indonesian",
+        href: "https://t.me/crosswiseindonesia",
+      },
+      {
+        label: "Russian",
+        href: "https://t.me/crosswiserussian",
+      },
+      {
+        label: "Thai",
+        href: "https://t.me/crosswisethai",
+      },
+      {
+        Label: "Portugues",
+        href: "https://t.me/crosswiseportugues",
+      },
+      {
+        Label: "Deutsch",
+        href: "https://t.me/crosswisedeutsch",
+      },
+      {
+        Label: "Indian",
+        href: "https://t.me/crosswiseindia",
       },
     ],
   },
   {
     label: "Discord",
     icon: "DiscordIcon",
-    href: "https://discord.com/crosswise",
+    href: "https://discord.gg/4BuwxMz24J",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://reddit.com/crosswise",
+    href: "https://www.reddit.com/r/crosswise/",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/crosswise",
+    href: "https://twitter.com/crosswisefi",
   },
   {
     label: "Facebook",
     icon: "FacebookIcon",
-    href: "https://facebook.com/crosswise",
+    href: "https://www.facebook.com/crosswisefi/",
   },
   {
     label: "Medium",
     icon: "MediumIcon",
-    href: "https://medium.com/crosswise",
+    href: "https://crosswise.medium.com/",
   },
 ];
 

@@ -98,7 +98,7 @@ const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, crssPriceUsd, current
         <StyledContact>
           <CommentIcon />
           <ContactLink>
-            <a href="mailto:support@crosswise.finance">Support</a>
+            <a href="https://help.crosswise.finance/">Support</a>
           </ContactLink>
         </StyledContact>
       </ContactEntry>
