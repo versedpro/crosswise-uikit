@@ -21,7 +21,7 @@ const DropdownContent = styled.div<{ position: Position }>`
   display: none;
   flex-direction: column;
   position: absolute;
-  transform: translate(-50%, 0);
+  transform: translate(${({ position }) => (position === "top" ? "0" : "-50%")}, 0);
   left: ${getLeft};
   bottom: ${getBottom};
   background-color: ${({ theme }) => theme.nav.background};
