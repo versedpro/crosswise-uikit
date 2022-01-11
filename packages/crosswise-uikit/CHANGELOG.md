@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.11](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise/uikit@0.2.10...@crosswise/uikit@0.2.11) (2022-01-11)
+
+
+### Bug Fixes
+
+* Dropdown position ([358bd3e](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/358bd3e33ba8fddee81033a069bf8d49e745e428))
+* Eslint issue on Droptdown ([ebcd216](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/ebcd2167f6b2b559305a482ed57dd5cc0aa24089))
+
+
+
+
+
 ## [0.2.10](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise/uikit@0.2.9...@crosswise/uikit@0.2.10) (2022-01-10)
 
 **Note:** Version bump only for package @crosswise/uikit
