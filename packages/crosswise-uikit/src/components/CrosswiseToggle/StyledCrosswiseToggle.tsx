@@ -42,11 +42,9 @@ const scaleKeyValues = {
   },
 };
 
-const getScale =
-  (property: ScaleKeys) =>
-  ({ scale = scales.MD }: CrosswiseToggleProps) => {
-    return scaleKeyValues[scale][property];
-  };
+const getScale = (property: ScaleKeys) => ({ scale = scales.MD }: CrosswiseToggleProps) => {
+  return scaleKeyValues[scale][property];
+};
 
 export const CrosswiseStack = styled.div<HandleProps>`
   position: relative;
