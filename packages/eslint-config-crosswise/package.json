@@ -6,7 +6,7 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/eslint-config-crosswise",
+  "repository": "https://github.com/versedpro/crosswise-toolkit/tree/master/packages/eslint-config-crosswise",
   "license": "MIT",
   "author": "cwgoodjdea",
   "private": false,

@@ -4,15 +4,15 @@ This repository is a monorepo manage with [yarn workspaces](https://classic.yarn
 
 ## Packages
 
-- [crosswise-uikit](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit) : React components used to build the Crosswise UI
-- [eslint-config-crosswise](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/eslint-config-crosswise) : An ESLint config for crosswise, with Typescript and Prettier support
+- [crosswise-uikit](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit) : React components used to build the Crosswise UI
+- [eslint-config-crosswise](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/eslint-config-crosswise) : An ESLint config for crosswise, with Typescript and Prettier support
 
 ## How to use
 
 Clone the repository 
 
 ```
-git clone git@github.com:crosswise-finance/crosswise-toolkit.git
+git clone git@github.com:versedpro/crosswise-toolkit.git
 ```
 
 Run yarn at the root of the workspace
