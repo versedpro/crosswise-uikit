@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit",
+  "repository": "https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
