@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.14](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise/uikit@0.2.13...@crosswise/uikit@0.2.14) (2022-02-14)
+
+
+### Bug Fixes
+
+* **package.json:** Update github repository url ([0b4a842](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/0b4a8423c82101262ab7116262a141cd8468061e))
+
+
+
+
+
 ## [0.2.13](https://github.com/crosswise-finance/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/@crosswise/uikit@0.2.11...@crosswise/uikit@0.2.13) (2022-01-11)
 
 

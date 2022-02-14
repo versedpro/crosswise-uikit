@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/eslint-config-crosswise/compare/@crosswise/eslint-config-crosswise@0.0.5...@crosswise/eslint-config-crosswise@0.0.6) (2022-02-14)
+
+
+### Bug Fixes
+
+* **eslint package.json): Update git repo url, chore(readme:** Update git repo urls ([fd9a039](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/eslint-config-crosswise/commit/fd9a039fa926667852b625ba08709265ba434104))
+
+
+
+
+
 ## [0.0.5](https://github.com/crosswise-finance/crosswise-toolkit/compare/@crosswise/eslint-config-crosswise@0.0.4...@crosswise/eslint-config-crosswise@0.0.5) (2021-12-28)
 
 **Note:** Version bump only for package @crosswise/eslint-config-crosswise
