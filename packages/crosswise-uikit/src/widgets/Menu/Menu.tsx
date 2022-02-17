@@ -15,6 +15,7 @@ import MenuButton from "./components/MenuButton";
 import { HamburgerCloseIcon, HamburgerIcon } from "./icons";
 import MobileFooter from "./components/MobileFooter";
 import { Text } from "../../components/Text";
+import { default as Certik } from "../../components/Svg/Icons/Certik";
 
 const Wrapper = styled.div`
   position: relative;
@@ -150,6 +151,7 @@ const Menu: React.FC<NavProps> = ({
             <UserBlock account={account} login={login} logout={logout} />
           </StyledVCenter>
           <StyledVCenter>{profile && <Avatar profile={profile} />}</StyledVCenter> */}
+          <Certik></Certik>
           <StyledVCenter>{globalMenu}</StyledVCenter>
           <StyledVCenter>{userMenu}</StyledVCenter>
           <StyledVCenter>

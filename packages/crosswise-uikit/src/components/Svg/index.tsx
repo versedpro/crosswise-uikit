@@ -15,6 +15,7 @@ export { default as CardIcon } from "./Icons/Card";
 export { default as Cards } from "./Icons/Cards";
 export { default as CardViewIcon } from "./Icons/CardView";
 export { default as CalculateIcon } from "./Icons/Calculate";
+export { default as Certik } from "./Icons/Certik";
 export { default as CircleOutlineIcon } from "./Icons/CircleOutline";
 export { default as ChartIcon } from "./Icons/Chart";
 export { default as ChartFIcon } from "./Icons/ChartF";
