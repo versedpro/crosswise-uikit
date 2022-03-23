@@ -1,6 +1,6 @@
 {
   "name": "@crosswise/uikit",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "Set of UI components for crosswise projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
