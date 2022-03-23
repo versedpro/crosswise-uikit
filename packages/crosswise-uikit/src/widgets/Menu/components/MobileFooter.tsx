@@ -101,7 +101,7 @@ const CopyrightEntry = styled.div`
 const MobileFooter: React.FC<Props> = ({ isDark }) => {
   return (
     <Container>
-      <LogoEntry>
+      {/* <LogoEntry>
         <LogoWithText className="crosswise-icon" isDark={isDark} />
       </LogoEntry>
       <InfoEntry>
@@ -110,9 +110,9 @@ const MobileFooter: React.FC<Props> = ({ isDark }) => {
         </Location>
         <Language>
           <StyledText color="textSubtle">English (US)</StyledText>
-        </Language>
-        {/* <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} /> */}
-      </InfoEntry>
+        </Language> */}
+      {/* <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} /> */}
+      {/* </InfoEntry>
       <LinkEntry>
         <LearnEntry>
           LEARN
@@ -135,8 +135,8 @@ const MobileFooter: React.FC<Props> = ({ isDark }) => {
             <li>Facebook</li>
           </ul>
         </SocialEntry>
-      </LinkEntry>
-      <CopyrightEntry>© 2021 CrossWise</CopyrightEntry>
+      </LinkEntry> */}
+      <CopyrightEntry>© 2022 Vault Swap</CopyrightEntry>
     </Container>
   );
 };
