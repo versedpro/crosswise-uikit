@@ -1,6 +1,6 @@
 {
-  "name": "crosswise-uikit",
-  "version": "0.2.0",
+  "name": "vault-uikit",
+  "version": "0.1.0",
   "description": "Set of UI components for crosswise projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -53,5 +53,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "f31d66aae20419094a5dd284d133b79435d816e7"
+  "gitHead": "3a50f51c06906959f3d834f7c662bfa1eec278b1"
 }
