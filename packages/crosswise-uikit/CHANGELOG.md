@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/compare/crosswise-uikit@0.32.12...crosswise-uikit@0.2.0) (2022-06-14)
+
+
+### Bug Fixes
+
+* **package.json:** Update github repository url ([0b4a842](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/0b4a8423c82101262ab7116262a141cd8468061e))
+* Crosswise icon on sidebar footer ([8b4910c](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/8b4910ce7111fe65a7d4dafcfb459bfcff6d7a98))
+* Dropdown position ([358bd3e](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/358bd3e33ba8fddee81033a069bf8d49e745e428))
+* Eslint issue ([951701f](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/951701ff4e7c23a95af3f43499843f27068abae3))
+* Eslint issue on Droptdown ([ebcd216](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/ebcd2167f6b2b559305a482ed57dd5cc0aa24089))
+* Price link ([692a531](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/692a5316c6df78dfabfe287cc432dedf14d9b58b))
+* TokenPairImage style update ([42f57d2](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/42f57d20ef3d5a8f0de01a4241cb3c274a9d6ef6))
+
+
+### Features
+
+* **uikit-package.json:** Update scoped package name ([bbca54d](https://github.com/versedpro/crosswise-toolkit/tree/master/packages/crosswise-uikit/commit/bbca54dd113a3be2b100bf1db45a88befaf59c02))
+
+
+
+
+
 # 0.2.0 (2022-06-14)
 
 
