@@ -1,5 +1,5 @@
 {
-  "name": "vault-toolkit",
+  "name": "vault-uikit",
   "version": "0.1.0",
   "description": "Set of UI components for crosswise projects",
   "main": "dist/index.cjs.js",

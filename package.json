@@ -1,5 +1,5 @@
 {
-  "name": "crosswise-toolkit",
+  "name": "vault-toolkit",
   "version": "1.0.0",
   "description": "Crosswise frontend packages",
   "workspaces": [
